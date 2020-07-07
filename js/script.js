@@ -7,7 +7,7 @@ if (eta <= 18) {
     sconto = 20;
 } else if (eta>=65) {
     sconto = 40;
-} 
+}
 
 
 var scontato = costoTotale;
@@ -25,8 +25,3 @@ document.getElementById('costo-tot').innerHTML=(costoTotale);
 document.getElementById('sconto').innerHTML=(sconto);
 
 document.getElementById('prezzo-finale').innerHTML=(scontato);
-
-
-console.log(eta);
-console.log(km);
-console.log(sconto);
